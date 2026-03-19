@@ -11,7 +11,7 @@ export default function Hero() {
   const { prefersReducedMotion, isMobile, shouldDisableInfiniteAnimations, mounted } = useMotionPreferences();
 
   return (
-    <section className="relative min-h-screen flex items-start md:items-center justify-center overflow-hidden bg-primary-50 pt-20">
+    <section className="relative min-h-screen flex items-start md:items-center justify-center overflow-hidden bg-primary-50 pt-20 pb-8">
       {/* Background Images and Overlays */}
       <div className="absolute inset-0 w-full h-full overflow-hidden">
         {/* Desktop Background Image (≥ 768px) */}

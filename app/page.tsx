@@ -1,4 +1,5 @@
 import Hero from '@/components/home/Hero';
+import FeaturedIn from '@/components/home/FeaturedIn';
 import Boxes from '@/components/home/Boxes';
 import ServicesSection from '@/components/home/ServicesSection';
 import ReviewsSection from '@/components/reviews/ReviewsSection';
@@ -51,6 +52,7 @@ export default function HomePage() {
       <ServiceSchema services={servicesForSchema} />
 
       <Hero />
+      <FeaturedIn />
       <Boxes />
       <IntroSection />
       <ServicesSection />

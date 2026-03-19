@@ -72,11 +72,10 @@ export default function ReviewsSection() {
               {[1, 2, 3, 4, 5].map((star) => (
                 <svg
                   key={star}
-                  className={`w-6 h-6 ${
-                    star <= Math.round(parseFloat(averageRating))
-                      ? 'text-yellow-400'
-                      : 'text-secondary-200'
-                  }`}
+                  className={`w-6 h-6 ${star <= Math.round(parseFloat(averageRating))
+                    ? 'text-yellow-400'
+                    : 'text-secondary-200'
+                    }`}
                   fill="currentColor"
                   viewBox="0 0 20 20"
                 >
@@ -85,7 +84,7 @@ export default function ReviewsSection() {
               ))}
             </div>
             <span className="text-2xl font-bold text-secondary-900">{averageRating}</span>
-            <span className="text-secondary-500">({reviews.length} reviews)</span>
+            <span className="text-secondary-500"> 50+reviews</span>
           </div>
         </AnimatedDiv>
 

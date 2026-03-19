@@ -50,7 +50,7 @@ function Box({ icon, title, description, index }: BoxProps) {
 
 export default function Boxes() {
   return (
-    <AnimatedSection className="py-24 bg-white relative">
+    <AnimatedSection className="py-24 pt-8 bg-white relative">
       {/* Background Decoration */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-primary-50/50 rounded-full blur-3xl opacity-30" />
